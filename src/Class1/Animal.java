@@ -6,18 +6,21 @@ public class Animal {
     public int age;
 
 
-    Scanner lectura= new Scanner(System.in);
+    
     //Metodos u operaciones 
-    public void registrarAnimal() {
+    public void registrarAnimal(String n, int a) {
         //cuerpo del metodo
-        System.out.println("Ingrese el nombre del animal");
-        name=lectura.nextLine();
-
-        System.out.println("Ingrese la edad del animal");
-        age=lectura.nextInt();
+    
+        name=n;
+        age=a;
     }
 
     public void mostrarAnimal(){
         System.out.println("El nombre del animal ingresado es " + name+ " y tiene "+age+" años");
+    }
+
+    public int duplicarEdad( int age){  
+        int duplicado=age*2;
+        return duplicado;
     }
 }

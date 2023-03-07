@@ -1,14 +1,14 @@
 package Principal;
 
-import Health.Person;
+import Health.ChallengeOne;
 
 public class Inicio {
     public static void main(String[] args) {
-        Person datos=new Person();
+        ChallengeOne persona=new ChallengeOne();
 
-        datos.pedirDatos();
-        datos.mostrarPersona();
-        datos.calcularImc();
-        datos.mayorEdad();
+        persona.pedirDatos();
+        persona.mostrarPersona();
+        persona.calcularImc();
+        persona.mayorEdad();
     }
 }

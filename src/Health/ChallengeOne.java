@@ -2,7 +2,7 @@ package Health;
 
 import java.util.Scanner;
 
-public class Person {
+public class ChallengeOne {
     //Atributos
     String typeDoc, name, lastName, gender;
     int document, age;
