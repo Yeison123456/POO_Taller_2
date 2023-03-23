@@ -1,12 +1,12 @@
 package Principal;
 
-import Health.Person;
-import Health.Empleado;
+import Health.ChallengerOne;
+import Health.ChallengerThree;
 
 public class Inicio {
     public static void main(String[] args) {
-        Person persona=new Person();
-        Empleado empleado=new Empleado();
+        ChallengerOne persona=new ChallengerOne();
+        ChallengerThree empleado=new ChallengerThree();
 
         persona.pedirDatos();
         persona.mostrarPersona();

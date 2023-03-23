@@ -1,6 +1,6 @@
 package Health;
 
-public class Empleado extends Person{
+public class ChallengerThree extends ChallengerOne{
     
 
     //Atributos 
@@ -8,11 +8,11 @@ public class Empleado extends Person{
     private int horasTrabajadas,  departamento, valorHora;
     private double reteica, totalPagar, totalHorasPagar;
     //Metodo constructor
-    public Empleado(){
+    public ChallengerThree(){
 
     }
 
-    public Empleado(String typeDoc, int document, String name, String lastName, String cargo, int horasTrabajadas, int valorHora, Double totalHorasPagar, Double totalPagar , Double reteica ) {
+    public ChallengerThree(String typeDoc, int document, String name, String lastName, String cargo, int horasTrabajadas, int valorHora, Double totalHorasPagar, Double totalPagar , Double reteica ) {
         super(typeDoc, document, name, lastName);
         this.cargo=cargo;
         this.horasTrabajadas=horasTrabajadas;

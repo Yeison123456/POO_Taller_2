@@ -1,7 +1,7 @@
 import Class1.Animal;
 import Class1.Movie;
 import Class1.Ave;
-import Health.Empleado;
+import Health.ChallengerThree;
 
 public class App1 {
     public static void main(String[] args) throws Exception {
@@ -9,7 +9,7 @@ public class App1 {
         Ave condorito=new Ave();
         Movie minions=new Movie();
         Movie avatar= new Movie();
-        Empleado empleado=new Empleado();
+        ChallengerThree empleado=new ChallengerThree();
 
         //reto 3
         empleado.setName("Yeison");

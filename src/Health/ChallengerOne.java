@@ -2,15 +2,15 @@ package Health;
 
 import java.util.Scanner;
 
-public class Person {
+public class ChallengerOne {
     //Atributos
     private String typeDoc, name, lastName, gender;
     private int document, age;
     private double weight, height, weightCurrent, heightC;
 
     //método constructor
-    public Person(){}//constructor vacio o por defecto
-    public Person(String typeDoc, int document, String name, String lastName){
+    public ChallengerOne(){}//constructor vacio o por defecto
+    public ChallengerOne(String typeDoc, int document, String name, String lastName){
     this.typeDoc=typeDoc;
     this.document=document;
     this.name=name;
