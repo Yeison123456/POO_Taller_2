@@ -18,7 +18,7 @@ public class ChallengerFive implements Juego {
 
     @Override
     public void jugar() {
-        System.out.println(nombre+"selecione 1. Piedra 2. Papel 3.Tijera ");
+        System.out.println(nombre+" selecione 1. Piedra 2. Papel 3.Tijera ");
         elecion=lectura.nextInt();
     }
     
