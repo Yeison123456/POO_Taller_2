@@ -18,13 +18,13 @@ public class ChallengerFive implements Juego {
 
     @Override
     public void jugar() {
-       int resultado=(int)(Math.random()*3+1);
-       System.out.println(nombre+"selecione 1. Piedra 2. Papel 3.Tijera ");
-       elecion=lectura.nextInt();
+        System.out.println(nombre+"selecione 1. Piedra 2. Papel 3.Tijera ");
+        elecion=lectura.nextInt();
     }
-
+    
     @Override
     public void finalizar() {
+        int resultado=(int)(Math.random()*3+1);
         if(resultado==1 && elecion==1){
             System.out.println(nombre+" ha salido piedra, usted seleciono piedra, empataste");
         }

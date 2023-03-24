@@ -11,7 +11,7 @@ public class Proof {
         Animal guacamayo= new Animal("blue", 10);
         Movie up=new Movie("Up","Aventura",2009, 96);
         Movie laNoche=new Movie("La noche del demonio","Terror",2010, 104);
-        
+
         up.mostrarMovie("Up", "Aventura");
         up.mostrarMovie("Up", 96);
         up.mostrarMovie(2009, "Up");
